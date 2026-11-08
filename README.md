@@ -10,7 +10,7 @@
 Manual one-hotkey counting with a live token-chance display.**
 
 [![Release](https://img.shields.io/badge/release-v1.0.0-gold?style=flat-square)](../../releases)
-[![Build](https://github.com/ivan1petrov2003-netizen/FortniteChestCounter1/actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
+[![Build](https://github.com/ZFX-Project/FortniteChestCounter/actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue?style=flat-square)](#)
 [![.NET](https://img.shields.io/badge/.NET%20Framework-4.8-purple?style=flat-square)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
