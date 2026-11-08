@@ -24,3 +24,12 @@ disable_fmm.ps1
 .vs/
 *.user
 *.suo
+
+# GitHub CLI (local)
+gh.zip
+tools/gh/
+
+# ffmpeg + promo render frames (large temp)
+tools/ffmpeg/
+tools/promoframes/
+tools/diag*/
