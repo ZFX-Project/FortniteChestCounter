@@ -10,10 +10,15 @@
 Manual one-hotkey counting with a live token-chance display.**
 
 [![Release](https://img.shields.io/badge/release-v1.0.0-gold?style=flat-square)](../../releases)
+[![Build](https://github.com/ivan1petrov2003-netizen/FortniteChestCounter1/actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue?style=flat-square)](#)
 [![.NET](https://img.shields.io/badge/.NET%20Framework-4.8-purple?style=flat-square)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![Language](https://img.shields.io/badge/lang-RU%20%2F%20EN-red?style=flat-square)](#)
+
+<p align="center">
+  <img src="docs/chest-open.gif" width="280" alt="Сундук открывается на каждый счёт / The chest opens on every count">
+</p>
 
 [![Counter RU](docs/screenshot-counter.png)](docs/screenshot-counter.png)
 [![Counter EN](docs/screenshot-counter-en.png)](docs/screenshot-counter-en.png)
@@ -90,6 +95,9 @@ build.bat
 
 Готовый exe появится в `bin\`. Иконку можно пересоздать через `tools\make_icon.ps1`.
 
+Либо просто пуши изменения — **GitHub Actions** соберёт exe автоматически
+(вкладка [Actions](../../actions/workflows/build.yml) → артефакты; на тегах `v*` exe прикрепляется к релизу).
+
 ---
 
 ## 🇬🇧 English
@@ -158,6 +166,9 @@ build.bat
 ```
 
 The exe is placed into `bin\`. Regenerate the icon via `tools\make_icon.ps1`.
+
+Or just push your changes — **GitHub Actions** builds the exe automatically
+(the [Actions](../../actions/workflows/build.yml) tab → artifacts; on `v*` tags the exe is attached to the release).
 
 ---
 
