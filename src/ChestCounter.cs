@@ -452,11 +452,10 @@ namespace ChestCounter
             sparkTimer.Start();
 
             topTimer = new System.Windows.Forms.Timer();
-            topTimer.Interval = 500;
+            topTimer.Interval = 250;
             topTimer.Tick += new EventHandler(delegate
             {
-                if (IsHandleCreated)
-                    SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE);
+                if (IsHandleCreated) SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE);
             });
             topTimer.Start();
 
@@ -1523,11 +1522,10 @@ namespace ChestCounter
             Controls.Add(bHide);
 
             topTimer = new System.Windows.Forms.Timer();
-            topTimer.Interval = 500;
+            topTimer.Interval = 250;
             topTimer.Tick += new EventHandler(delegate
             {
-                if (IsHandleCreated && Visible)
-                    SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE);
+                if (IsHandleCreated && Visible) SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE);
             });
             topTimer.Start();
 
@@ -1955,11 +1953,11 @@ namespace ChestCounter
             MouseDown += new MouseEventHandler(StartDrag);
 
             topTimer = new System.Windows.Forms.Timer();
-            topTimer.Interval = 500;
+            topTimer.Interval = 250;
             topTimer.Tick += new EventHandler(delegate
             {
                 if (IsHandleCreated)
-                    SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE);
+                if (IsHandleCreated) SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE);
             });
             topTimer.Start();
 
