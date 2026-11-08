@@ -1,0 +1,26 @@
+# build output
+bin/
+dist/
+*.exe
+*.zip
+
+# local user data (created at runtime)
+Maps/
+state*.txt
+
+# temporary screenshots / diagnostics
+full.png
+check*.png
+crop*.png
+wizard_check.png
+icon_check.png
+winlist.ps1
+scan_overlay_apps.ps1
+pt_hotkeys.ps1
+ctrl_test.ps1
+disable_fmm.ps1
+
+# visual studio / IDE
+.vs/
+*.user
+*.suo
