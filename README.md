@@ -68,6 +68,9 @@ Manual one-hotkey counting with a live token-chance display.**
 > 💡 Для видимости оверлея в игре выберите **«Оконный полный экран»** (Windowed Fullscreen)
 > в настройках графики Fortnite.
 
+> 🛡 **Windows пишет «вирус»?** Это SmartScreen и отсутствие цифровой подписи, а не вирус.
+> Проверка в 13 антивирусах, хеши файла и разбор кода — в [SECURITY.md](SECURITY.md).
+
 ### ⌨️ Управление (по умолчанию)
 
 | Клавиша | Действие |
@@ -138,6 +141,9 @@ after N chests the probability the token has dropped is `1 − (1 − 1/137500)^
 
 > 💡 To see the overlay in-game select **Windowed Fullscreen**
 > in the Fortnite display settings.
+
+> 🛡 **Windows says "virus"?** That's SmartScreen and a missing code signature, not malware.
+> 13-engine scan, file hashes and source review: [SECURITY.md](SECURITY.md).
 
 ### ⌨️ Controls (defaults)
 
